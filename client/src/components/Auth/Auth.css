@@ -1,0 +1,72 @@
+.auth-wrapper {
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;background-color: blueviolet;opacity: 80%;
+    align-items: flex-start;background-color: blueviolet;opacity: 80%;
+}
+
+.auth-wrapper .left {
+    top: -400px;
+    background-color: blueviolet;opacity: 80%;margin-left: 0%;
+    width:1000px;transform: rotate(-30deg);border-radius: 10%;
+    height: 100%;padding-left: 0;left: 90px;
+}
+
+.auth-wrapper .right { 
+    padding: 100px;border: 4px;border-style: solid;top:200px;
+    text-align: center;height:600px;transform: rotate(0deg);
+    width: calc(40% - 200px);background-color: orange;opacity:90% ;
+}
+
+.auth-wrapper .right .header {
+    
+    font-size: 3em;color: blueviolet;opacity: 70%;
+    letter-spacing: 1px;
+}
+
+.auth-wrapper .right .sub-header {
+    font-size: 1.5em;
+    color: blueviolet;
+}
+
+.auth-wrapper .form {
+    width: fit-content;top: -80px;
+    margin: 0 auto;
+}
+
+.auth-wrapper .input {
+    width: 20vw;
+}
+
+.auth-wrapper .sign-in-wrapper .input-wrapper {
+    text-align: left;
+    /* width: fit-content; */
+    margin: 20px auto;
+}
+
+.auth-wrapper .sign-in-wrapper .input-wrapper:first-child {
+    margin-top: 140px;
+}
+
+.auth-wrapper .btn {
+    margin-top: 40px;
+    font-size: 1.1em !important;
+    width: 100% !important;
+}
+
+.auth-wrapper .new {
+    margin-top: 50px;
+    cursor: pointer;
+    color: blueviolet
+}
+
+.auth-wrapper .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-wrapper .left img {
+    width: 50%;
+    height: auto;transform: rotate(0deg);
+}
